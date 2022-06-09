@@ -13,4 +13,7 @@ You can do that in several ways:
 
 - More to come!
 
+Known issues:
+- Only when using the Windows Command Line Interface, limit for each input string is 8192 characters. On this OS, we recommend to use Git Bash.
+
 (c) matteo-lombardi, meryan83
