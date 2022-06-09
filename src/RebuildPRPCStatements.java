@@ -14,6 +14,24 @@ class RebuildPRPCStatements {
         boolean debug = false;
         boolean fromFile = false;
         
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////\r\n" + 
+        		"//                                                                                                      //\r\n" + 
+        		"//                                       REBUILD PRPC STATEMENTS                                        //\r\n" + 
+        		"//                                                                                                      //\r\n" + 
+        		"// Use this program to rebuild PRPC statements into SQL queries using the output from the PEGA Tracer.  //\r\n" + 
+        		"// You can do that in several ways:                                                                     //\r\n" + 
+        		"// - Using a text file with your PEGA Tracer output, by simply providing the file name, like:           //\r\n" + 
+        		"//  java -jar RebuildPRPCStatements.jar file.txt                                                        //\r\n" + 
+        		"// - Providing the PEGA Tracer output from command line interface                                       //\r\n" + 
+        		"//                                                                                                      //\r\n" + 
+        		"// Visit the GitHub repo for more information:                                                          //\r\n" + 
+        		"// https://github.com/matteo-lombardi/RebuildPRPCStatements                                             //\r\n" + 
+        		"//                                                                                                      //\r\n" + 
+        		"// (c) matteo-lombardi, meryan83                                                                        //\r\n" + 
+        		"//                                                                                                      //\r\n" + 
+        		"//////////////////////////////////////////////////////////////////////////////////////////////////////////\r\n" + 
+        		"");
+        
         while(!close) {
         	String rebuiltQuery = "";
         	String query = "";
