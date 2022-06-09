@@ -1,0 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                      //
+//                                       REBUILD PRPC STATEMENTS                                        //
+//                                                                                                      //
+// Use this program to rebuild PRPC statements into SQL queries using the output from the PEGA Tracer.  //
+// You can do that in several ways:                                                                     //
+// - Using a text file with your PEGA Tracer output, by simply providing the file name, like:           //
+//  java -jar RebuildPRPCStatements.jar file.txt                                                        //
+// - Providing the PEGA Tracer output from command line interface                                       //
+//                                                                                                      //
+// Visit the GitHub repo for more information:                                                          //
+// https://github.com/matteo-lombardi/RebuildPRPCStatements                                             //
+//                                                                                                      //
+// (c) matteo-lombardi, meryan83                                                                        //
+//                                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////

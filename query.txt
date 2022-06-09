@@ -1,0 +1,8 @@
+Table Name 	 pegadata.pca_Test
+ SQL Operation 	 select 
+ SQL 	 SELECT "PC0"."pyid" AS "pyID" , "PC0"."pystatuswork" AS "pyStatusWork" , ... , ?, ?, ... ?, ?, ....
+ SQL Inserts 	
+ <false> <true> <1> <ABC>
+ Connection ID 	 0 
+ High Level Op ID 	 2959456 
+ High Level Op 	 list 
